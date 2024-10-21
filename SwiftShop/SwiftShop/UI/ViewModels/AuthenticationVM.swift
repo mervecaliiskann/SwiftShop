@@ -1,5 +1,5 @@
 //
-//  AuthenticationViewModel.swift
+//  AuthenticationVM.swift
 //  SwiftShop
 //
 //  Created by Merve Çalışkan on 18.10.2024.
