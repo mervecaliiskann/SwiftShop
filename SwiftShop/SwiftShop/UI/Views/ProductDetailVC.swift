@@ -66,7 +66,6 @@ final class ProductDetailVC: UIViewController {
     }
     @IBAction func addToCardButton(_ sender: Any) {
         guard let product = product else { return }
-        
         viewModel.addToCart(product: product) { success in
             let message = success ? "\(product.name) sepete eklendi." : "Ürün sepete eklenemedi."
             let alert = UIAlertController(title: success ? "Başarılı" : "Hata", message: message, preferredStyle: .alert)
